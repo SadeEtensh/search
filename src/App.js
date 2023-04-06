@@ -2,7 +2,7 @@
 import './App.css';
 import JSONDATA from './MOCK_DATA.json'
 import { useState} from 'react';
-
+//Search Functionality
 function App() {
   const [serachTerm, setSearchTerm] = useState('');
   return <div className='App'><input type="text" placeholder="Search..." onChange={event =>{
